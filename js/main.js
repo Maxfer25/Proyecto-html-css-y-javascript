@@ -9,7 +9,7 @@ window.addEventListener("scroll", function(){
     ubicacionprincipal = desplazamiento;
 })
 //menu
-
+AOS.init();
 let enlacesheader = document.querySelectorAll(".enlaces-header")[0];
 let semaforo = true;
 
