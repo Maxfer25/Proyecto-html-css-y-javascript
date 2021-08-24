@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fa, .fab, .fad, .fal, .far, .fas{
-    display: flex;
-}
 a{
     text-decoration: none;
 }
@@ -240,8 +237,7 @@ nav{
     max-width: 100%;
     width: 100%;
     padding-inline: 2rem;
-    border-bottom: .5pxsolid transparent ;
-    border-radius: 0 0 80em 80em/ 14em;
+
 }
 .services-title{
     text-align: center;
@@ -390,6 +386,7 @@ i.fas.fa-question{
     padding: 0.875rem 1.125rem;
     border-radius: 5px;
     transition:  color 0.7s ease-in-out;
+    text-transform: uppercase;
 }
 .btn:hover{
     background-color: #10a587;
@@ -449,8 +446,8 @@ footer{
     border-color: #20BDFF;
 }
 @media (min-width:724px){
-     /*results*/
-     .results-img img{
+    /*results*/
+    .results-img img{
         width: 450px;
     }
     .numbers{
@@ -459,6 +456,9 @@ footer{
     }
     .results-text{
         grid-column: 1/3;
+    }
+    .partFooter{
+        width: 40%;
     }
 }
 @media (min-width:900px) {
