@@ -1,3 +1,6 @@
+.nav .menudos{
+    clip-path: circle(133.8% at 100% 0);
+}
 .title-general{
     display: flex;
     flex-direction:column;
@@ -77,15 +80,27 @@
     background: #1fde82;
     width: 50%;
 }
+.subscription-title p{
+    padding-top: 1rem;
+}
 .subscription{
     background: #5433FF;
     background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF);
     background: linear-gradient(to right, #A5FECB, #20BDFF);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
 }
 .subscription-form{
     display: flex;
-    flex-direction: column;
-    box-shadow: none;
+    padding-top: 1rem;
+}
+.subscription-form-wrapper{
+    width: 80%;
 }
 input{
     border-radius: 3px;
@@ -97,7 +112,26 @@ input{
     height: 40px;
     margin-bottom: 15px;
     padding: 10px 20px;
+    border: none;
 }
+.btn-form{
+    flex: 0 0 120px;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 14px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    border: none;
+    background: #1fde82;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
 @media (min-width:720px) {
     .card:last-child{
         display: none;
