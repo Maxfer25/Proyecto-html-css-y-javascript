@@ -79,6 +79,10 @@
     color: white;
     background: #1fde82;
     width: 50%;
+    transition: ease .5s;
+}
+.product-link:hover{
+    background: #139c5a;
 }
 .subscription-title p{
     padding-top: 1rem;
@@ -115,7 +119,7 @@ input{
     border: none;
 }
 .btn-form{
-    flex: 0 0 120px;
+    flex: 0 0 100px;
     cursor: pointer;
     display: inline-flex;
     font-size: 14px;
@@ -130,6 +134,7 @@ input{
     color: white;
     border-radius: 5px;
     text-transform: uppercase;
+    transition: ease .5s;
 }
 
 @media (min-width:720px) {
@@ -141,6 +146,9 @@ input{
 @media(min-width:958px) {
     .card:last-child{
         display: block;
+    }
+    .btn-form:hover{
+        background: #139c5a;
     }
 }
 

@@ -9,12 +9,10 @@ window.addEventListener("scroll", function(){
     ubicacionprincipal = desplazamiento;
 })
 //menu
-AOS.init();
-let enlacesheader = document.querySelectorAll(".enlaces-header")[0];
-let semaforo = true;
 
-document.querySelectorAll(".hamburguer")[0].addEventListener("click",function(){
-   
-    
+let enlacesheader = document.querySelectorAll(".enlaces-header")[0];
+document.querySelectorAll(".hamburguer")[0].addEventListener("click",function(e){
     enlacesheader.classList.toggle("menudos");
 })
+
+AOS.init();

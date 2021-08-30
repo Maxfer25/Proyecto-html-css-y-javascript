@@ -131,7 +131,7 @@ nav{
 .contenedor-articulo{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
+  
 }
 .articulo{
     width: 95%;
@@ -325,8 +325,6 @@ nav{
 .container-general-op{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 6rem;
-    margin-top: 6rem;
 }
 .operation-container{
     margin-bottom: 2.5rem;
@@ -405,6 +403,7 @@ footer{
 .partFooter{
     width: 95%;
     text-align: center;
+
 }
 .partFooter h4{
     color:#1d273b;
@@ -442,7 +441,7 @@ footer{
 }
 .social-media i:hover{
     color: white;
-    background:linear-gradient(to right, #20BDFF, #5433FF);
+    background:linear-gradient(to right, #A5FECB, #20BDFF);
     border-color: #20BDFF;
 }
 @media (min-width:724px){
@@ -519,6 +518,10 @@ footer{
 
     /*Footer*/
     .partFooter{
-        width: 25%;
+        width: 22%;
+        border-right: 1px solid ;
+    }
+    .partFooter:last-child{
+        border:none
     }
 }
