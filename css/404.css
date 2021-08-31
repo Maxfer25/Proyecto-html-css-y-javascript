@@ -1,0 +1,39 @@
+.error-404{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.figure-404{
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+.figure-404 img{
+    width: 100%;
+    height: 100%;
+}
+.btn-404{
+    flex: auto;
+    margin-top: 1rem;
+}
+.content-btn{
+    text-align: center;
+}
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width:700px) {
+    .figure-404{
+        width: 500px;
+    }
+}
+@media (min-width:924px) {
+    .figure-404{
+        width: 700px;
+    }
+}

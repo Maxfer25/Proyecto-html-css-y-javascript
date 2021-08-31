@@ -1,6 +1,9 @@
 .nav .menudos{
     clip-path: circle(133.8% at 100% 0);
 }
+.bg-header{
+    background-color: #eee;
+}
 .title-general{
     display: flex;
     flex-direction:column;
