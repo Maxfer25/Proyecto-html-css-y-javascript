@@ -1,0 +1,55 @@
+.search-text{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.search-text h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.content-searh{
+    margin: auto;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+@media (min-width:724px) {
+    .container-card{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+}
+    .card{
+        width: 45%;
+    }
+}
+@media (min-width:1024px) {
+    .search{
+        max-width: 1300px;
+        margin: auto;
+    }
+    }
+    .search-text{
+        text-align: start;
+        margin-left: 2rem;
+        margin-bottom: 0;
+    }
+    .content-search{
+        display: flex;
+        margin: auto;
+        overflow: hidden;
+        padding: 60px 0;
+        width: 95%;
+    }
+        .container-card{
+        flex-wrap: wrap;
+        max-width: 70%;
+        justify-content: start;
+        margin-top: 0;
+    }
+        .card{
+            width: 30%; 
+        }
+}

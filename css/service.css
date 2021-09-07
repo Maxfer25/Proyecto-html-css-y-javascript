@@ -29,7 +29,7 @@
     box-shadow: 0 4px 6px #0003;
 }
 .card-img{
-    min-width: 285px;
+    max-width: 285px;
     height: 200px;
 }
 .card-img img{
@@ -67,7 +67,7 @@
     display: flex;
     width: 100%;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: center;
 }
 .product-link{
     align-items: center;
