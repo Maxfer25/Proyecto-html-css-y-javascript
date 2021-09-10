@@ -51,6 +51,8 @@
 }
 .art-about{
     text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0,0, 0.5);
+    margin: 5px;
 }
 .thumbnail-about{
     display: flex;
@@ -58,6 +60,7 @@
     gap: .5rem;
     justify-content: center;
     padding-inline: 1rem;
+    padding-bottom: 3rem;
 }
 .post-thumbnail-about{
     width: 100%;
